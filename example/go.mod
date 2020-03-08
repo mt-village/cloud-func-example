@@ -1,4 +1,4 @@
-module github.com/mt-village/cloud-func-example
+module github.com/mt-village/cloud-func-exampl
 
 go 1.11
 
