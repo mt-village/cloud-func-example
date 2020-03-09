@@ -26,8 +26,8 @@ func HelloPubSub(ctx context.Context, m *pubsub.Message) error {
 	// 属性の出力
 	if len(m.Attributes) > 0 {
 		for k, v := range m.Attributes {
-			log.Println("key:", k)
-			log.Println("value:", v)
+			log.Println("key :", k)
+			log.Println("value :", v)
 		}
 	}
 	return nil
